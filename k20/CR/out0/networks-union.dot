@@ -1,0 +1,14 @@
+digraph "" {
+FOXO3 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+CCNB1 [color=lightblue, fillcolor=lightblue, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+PTK2 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+STK11 [color=olivedrab3, fillcolor=olivedrab3, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+JUNB [color=lightblue, fillcolor=lightblue, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+MAPK14 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+SPP1 [color=olivedrab3, fillcolor=olivedrab3, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+FOXO3 -> CCNB1  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+PTK2 -> MAPK14  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+STK11 -> FOXO3  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+MAPK14 -> JUNB  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+SPP1 -> PTK2  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+}

@@ -1,0 +1,19 @@
+
+Running caspo learn...
+A critical error has occurred. Please file an issue at http://github.com/bioasp/caspo/issues.
+
+Running caspo learn...
+Number of hyperedges (possible logical mappings) derived from the compressed PKN: 862
+Optimum logical network learned in 2.8037s
+Optimum logical networks has MSE 0.1086 and size 5
+1 (nearly) optimal logical networks learned in 11.8900s
+Weighted MSE: 0.1086
+
+Running caspo classify...
+Classifying 1 logical networks...
+1 input-output logical behaviors found in 14.9523s
+
+Running caspo visualize...
+A critical error has occurred. Please file an issue at http://github.com/bioasp/caspo/issues.
+
+Running caspo visualize...

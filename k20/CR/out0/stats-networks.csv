@@ -1,0 +1,6 @@
+mapping,frequency,inclusive,exclusive
+PTK2<-SPP1,1.0,,
+MAPK14<-PTK2,1.0,,
+FOXO3<-STK11,1.0,,
+CCNB1<-FOXO3,1.0,,
+JUNB<-MAPK14,1.0,,

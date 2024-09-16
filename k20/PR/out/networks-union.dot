@@ -1,0 +1,26 @@
+digraph "" {
+ITGB3 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+PTK2 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+TP53 [color=orangered, fillcolor=orangered, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+CREB1 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+ARC [color=lightblue, fillcolor=lightblue, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+MAPK14 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+AKT1 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+MAPK1 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+RELA [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+TSC2 [color=lightblue, fillcolor=lightblue, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+VASP [color=olivedrab3, fillcolor=olivedrab3, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+BCL2 [color=black, fillcolor=white, fontname=Helvetica, fontsize=18, shape=ellipse, style="filled, bold"];
+ITGB3 -> PTK2  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+PTK2 -> MAPK14  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+TP53 -> TSC2  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+CREB1 -> ARC  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+MAPK14 -> AKT1  [arrowhead=tee, color=red, dir=forward, key=0, penwidth="5.0", sign="-1", weight="1.0"];
+MAPK14 -> RELA  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="2.5", sign=1, weight="0.5"];
+MAPK14 -> MAPK1  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="2.5", sign=1, weight="0.5"];
+AKT1 -> CREB1  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+MAPK1 -> BCL2  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="2.5", sign=1, weight="0.5"];
+RELA -> BCL2  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="2.5", sign=1, weight="0.5"];
+VASP -> ITGB3  [arrowhead=normal, color=forestgreen, dir=forward, key=0, penwidth="5.0", sign=1, weight="1.0"];
+BCL2 -> TP53  [arrowhead=tee, color=red, dir=forward, key=0, penwidth="5.0", sign="-1", weight="1.0"];
+}

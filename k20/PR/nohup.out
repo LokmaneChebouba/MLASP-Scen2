@@ -1,0 +1,16 @@
+
+Running caspo learn...
+Number of hyperedges (possible logical mappings) derived from the compressed PKN: 862
+Optimum logical network learned in 80.2980s
+Optimum logical networks has MSE 0.1222 and size 10
+2 (nearly) optimal logical networks learned in 283.0347s
+Weighted MSE: 0.1222
+
+Running caspo classify...
+Classifying 2 logical networks...
+1 input-output logical behaviors found in 25.4599s
+
+Running caspo visualize...
+A critical error has occurred. Please file an issue at http://github.com/bioasp/caspo/issues.
+
+Running caspo visualize...
