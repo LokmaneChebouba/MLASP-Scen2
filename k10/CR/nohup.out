@@ -1,0 +1,7 @@
+
+Running caspo learn...
+Number of hyperedges (possible logical mappings) derived from the compressed PKN: 841
+Optimum logical network learned in 1433135.4573s
+Optimum logical networks has MSE 0.1038 and size 46
+48 (nearly) optimal logical networks learned in 495377.9416s
+Weighted MSE: 0.1038
